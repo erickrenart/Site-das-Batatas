@@ -1,0 +1,140 @@
+body{
+    background-color: #FAEBC7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #452b0b;
+}
+button{
+    padding: 20px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #D19C2F;
+    border-radius: 5px;
+}
+/* Site Home */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.home{
+    padding: 20px;
+    font-size: 30px;
+    text-align:left
+}
+.sobre{
+    margin-left: 10px;
+}
+.anexo{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.centro{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #D19C2F;
+    margin-bottom: 20px;
+}
+.centro img{
+    max-width: 60%;
+}
+.texto.centro{
+    max-width: 40%;
+    text-align: justify;
+}
+.img.baixo{
+    display: flex;
+    gap: 100px;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 90%;
+}
+.img.baixo img{
+    flex: 1;
+    max-width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #D19C2F;
+    border-radius: 50px;
+}
+.texto.footer{
+    font-size: 24px;
+}
+.redes.sociais{
+    display: flex;
+    gap: 10px;
+}
+.redes.sociais img{
+    width: 100px;
+    height: 100px;
+}
+/* Site Sobre */
+.sobre2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 20px 0;
+}
+.txt center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baixo2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 90%;
+}
+.baixo2 .img, .baixo2 .texto {
+    flex: 1;
+}
+.baixo2 .img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/*Site Fotos*/
+.fotos2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 20px 0;
+}
+.foto2, .foto3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 90%;
+}
+.foto2 img, .foto3 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
