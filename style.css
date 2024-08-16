@@ -75,6 +75,7 @@ footer{
 .redes.sociais img{
     width: 100px;
     height: 100px;
+    border-radius: 10px;
 }
 /* Site Sobre */
 .sobre2{
